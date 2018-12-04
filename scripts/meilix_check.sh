@@ -74,10 +74,10 @@ ls /usr/share/xsessions/
 echo passphrase section
 cat /usr/share/initramfs-tools/scripts/casper
 ls /usr/share/initramfs-tools/scripts/casper-bottom/
-less /etc/casper.conf
+cat /etc/casper.conf
 
-less /usr/share/initramfs-tools/scripts/casper-bottom/25adduser
-less /usr/share/initramfs-tools/scripts/casper-bottom/24preseed
+cat /usr/share/initramfs-tools/scripts/casper-bottom/25adduser
+cat /usr/share/initramfs-tools/scripts/casper-bottom/24preseed
 cat /usr/share/initramfs-tools/scripts/casper-bottom/15autologin
 echo end passphrase section
 
